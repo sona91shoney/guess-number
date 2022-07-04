@@ -17,7 +17,7 @@ public class Guess {
             String name = sc.next();
             System.out.println(name);
             System.out.println("Well, " + name + ", I am thinking of a number between 1 and 20");
-
+            // Added sample comments here
             while(true) {
                 if (num_tries > 6) {
                     System.out.println("Maximum 6 tries, sorry!");
